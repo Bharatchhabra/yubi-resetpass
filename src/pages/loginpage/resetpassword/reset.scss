@@ -1,0 +1,47 @@
+$primary-color: #a7a0a0;
+$error-color: #e63946;
+$border-radius: 10px;
+.login_content{background: url('../../../assets/images/login-bg.png');background-repeat: no-repeat;background-size: cover;height: 800px;}
+.login_img{display: flex;align-items: center;padding-left: 100px!important;}
+.login_form{padding-top: 90px;}
+.form-row {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+  }
+  .input-error {
+    border-color: $error-color;
+  }
+  .error {
+    color: $error-color;
+    font-size: 1rem;
+    margin-top: 0.3rem;
+  }
+  .error::before {
+    content: "";
+    display: block;
+    background: url("../../../assets/images/times-circle-regular.svg") no-repeat;
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin: 0 6px 0 0;
+}
+input {
+    border: 1px solid rgba($primary-color, 0.8);
+    border-radius: $border-radius;
+    padding: 1rem 1rem;
+    padding-left: 1rem;
+    font-size: 1rem;
+    margin-top: 12px!important;
+  }
+  .heading_text{font-weight: 500!important;font-size: 40px!important;line-height: 40px!important;color: #000000!important;font-family: 'Roboto'!important;}
+  .user_footer{font-family: 'Roboto'!important;font-size: 20px!important;}
+  .css-i4bv87-MuiSvgIcon-root {
+    width: 2em !important;
+    height: 2em !important;
+    color: #A7A0A0;
+}
+.css-10hburv-MuiTypography-root {
+    font-size: 20px !important;
+    line-height: 23px !important;
+}

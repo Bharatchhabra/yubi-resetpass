@@ -1,0 +1,15 @@
+.img-fluid{max-width: 100%;height: auto;}
+.banner_h4{padding: 0px 0px 60px 0px!important;font-family: 'Forum'!important;font-weight: normal;font-size: 45px!important;line-height: 50px!important;color: #FFFFFF!important;}
+.btn-outline-secondary {color: #6c757d;border-color: transparent!important;}
+.search_icon_btn{font-size: 22px!important;border-radius: 0px!important;background-color: #FFFFFF!important;color: #000!important;}
+.banner_search_btn{background-color: #07D4FA!important;color: #fff!important;font-weight: 500;font-size: 20px;line-height: 23px;
+border-radius: 0px!important;padding: 7px 40px!important;}
+.banner_section{padding: 150px 0px 20px 100px!important;}
+.input_grp{box-shadow: 4px 4px 20px 3px rgba(0, 0, 0, 0.25)!important;}
+.find_product_input::placeholder{font-weight: 500!important;font-size: 20px!important;color: #000!important;}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+    .banner_section{padding: 50px 10px 20px 30px!important;}
+    .banner_search_feild{width: 100%!important;}
+  }

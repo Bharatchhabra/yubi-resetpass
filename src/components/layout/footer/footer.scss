@@ -1,0 +1,27 @@
+.footer_links {
+  margin: 0 auto !important;
+  font-size: 50px !important;
+  color: #fff !important;
+}
+.copyright {
+  font-family: "Roboto" !important;
+  font-size: 25px !important;
+  line-height: 29px;
+  text-align: center;
+  color: #ffffff !important;
+}
+.footer_link_heading {
+  font-family: "Roboto" !important;
+  font-size: 25px !important;
+  line-height: 29px!important;
+}
+.css-10hburv-MuiTypography-root{font-size: 20px!important;line-height: 23px!important;}
+.footer_list_link{padding-left: 0px!important;}
+.bottom_footer{background-color: #000014;padding: 40px 85px;color: #fff}
+.footer_section{background-color: #000014;padding: 85px;color: #fff}
+
+/* On screens that are 600px wide or less, the background color is olive */
+@media screen and (max-width: 600px) {
+  .bottom_footer{padding: 40px 24px;}
+  .footer_section{padding: 40px 24px;}
+}

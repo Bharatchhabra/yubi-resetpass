@@ -1,0 +1,5 @@
+.navbar_bg{background: #000014!important;height: 80px;}
+.navbar_link{color: #fff!important;margin: 0 25px!important;font-size: 18px!important;}
+.navbar_login_btn{border: 2px solid #07D4FA!important;border-radius: 50px!important;font-size: 20px;line-height: 23px;color: #fff!important;margin: 0 25px!important;font-size: 18px!important;}
+.blue_btns{background: #07D4FA!important;border-radius: 50px!important;margin: 0 25px!important;padding-right: 20px!important;padding-left: 20px!important;}
+.navbar_register_btn{@extend .blue_btns;font-size: 18px!important;}

@@ -1,0 +1,11 @@
+body {font-family: "Roboto" !important;}
+@font-face {font-family: "Forum";src: url("./assets/fonts/Forum/Forum-Regular.ttf") format("truetype");}
+.css-1h9z7r5-MuiButtonBase-root-MuiTab-root {color: #000!important;font-size: 20px!important;text-transform: capitalize!important;margin: 0 150px 0 15px!important;}
+.MuiStepper-alternativeLabel {padding-top: 120px!important;}.css-1aquho2-MuiTabs-indicator {background-color: #07D4FA!important;height: 5px!important;}
+hr {opacity: 1!important;}
+.css-13xfq8m-MuiTabPanel-root {padding: 24px 5px!important;}
+.blue_btns{background: #07D4FA!important;border-radius: 50px!important;margin: 0 25px!important;padding-right: 20px!important;padding-left: 20px!important;padding: 4px 50px!important;}
+.lightblue_btn{@extend .blue_btns;text-transform: capitalize!important;font-size: 25px!important;}
+.css-1iwtne7-MuiTypography-root-MuiLink-root {
+    text-decoration-color: #237073 !important;
+}
